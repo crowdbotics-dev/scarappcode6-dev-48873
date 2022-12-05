@@ -6,5 +6,9 @@ export const globalOptions = {
   "api": "https://scarappcode6-dev-48873.botics.co/api/v1"
 };
 export const modulesOptions = {
-  "@modules/app-menu": {}
+  "@modules/app-menu": {
+    "title": "App Menu",
+    "copy": "Routes available",
+    "styles": styles
+  }
 };
